@@ -64,7 +64,7 @@ The repo to push the deploy to. Defaults to `origin`.
 #### `username`
 The username that will be associated with the deploy commit.
 
-#### `--email`
+#### `email`
 The email that will be associated with the deploy commit.
 
 [dependencyci-badge]: https://dependencyci.com/github/ineo6/file-deploy/badge?style=flat-square
