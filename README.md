@@ -1,7 +1,5 @@
 # file-deploy
 
-[![Build Status][build-badge]][build]
-[![Code Coverage][coverage-badge]][coverage]
 [![Dependencies][dependencyci-badge]][dependencyci]
 [![version][version-badge]][package]
 [![downloads][downloads-badge]][npm-stat]
@@ -35,7 +33,7 @@ The example is:
   "repo": "git@github.com:ineo6/file-deploy.git",
   "username": "deployBot",
   "email": "deployBot@bot.com",
-  "branch": 'gh-pages'
+  "branch": "gh-pages"
 }
 ```
 
@@ -68,3 +66,19 @@ The username that will be associated with the deploy commit.
 
 #### `--email`
 The email that will be associated with the deploy commit.
+
+[dependencyci-badge]: https://dependencyci.com/github/ineo6/file-deploy/badge?style=flat-square
+[dependencyci]: https://dependencyci.com/github/ineo6/file-deploy
+[version-badge]: https://img.shields.io/npm/v/file-deploy.svg?style=flat-square
+[package]: https://www.npmjs.com/package/file-deploy
+[downloads-badge]: https://img.shields.io/npm/dm/file-deploy.svg?style=flat-square
+[npm-stat]: http://npm-stat.com/charts.html?package=file-deploy&from=2018-10-31
+[license-badge]: https://img.shields.io/npm/l/file-deploy.svg?style=flat-square
+[license]: https://github.com/ineo6/file-deploy/blob/master/LICENSE
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[prs]: http://makeapullrequest.com
+[coc-badge]: htts://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
+[github-watch-badge]: https://img.shields.io/github/watchers/ineo6/file-deploy.svg?style=social
+[github-watch]: https://github.com/ineo6/file-deploy/watchers
+[github-star-badge]: https://img.shields.io/github/stars/ineo6/file-deploy.svg?style=social
+[github-star]: https://github.com/ineo6/file-deploy/stargazers
