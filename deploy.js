@@ -9,10 +9,10 @@ const config = getConfig();
 
 const options = {
     directory: config.directory || 'dist/',
-    repo: config.repo || '',
+    repo: config.repo || 'origin',
     username: config.username || 'deployBot',
     email: config.email || 'deployBot@bot.com',
-    branch: argv.branch || ''
+    branch: argv.branch || config.branch || 'gh-pages'
 }
 
 if (typeof options.branch === 'boolean') {
