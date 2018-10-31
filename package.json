@@ -9,8 +9,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ineo6/file-deploy.git"
+  },
   "author": "ineo6",
   "license": "MIT",
+  "homepage": "https://github.com/ineo6/file-deploy",
   "dependencies": {
     "findup": "^0.1.5",
     "git-directory-deploy": "^1.5.1",
