@@ -10,7 +10,7 @@ const config = getConfig();
 const options = {
     directory: config.directory || 'dist/',
     repo: config.repo || 'origin',
-    username: config.username || 'deployBot',
+    username: argv.branch || config.username || 'deployBot',
     email: config.email || 'deployBot@bot.com',
     branch: argv.branch || config.branch || 'gh-pages'
 }
